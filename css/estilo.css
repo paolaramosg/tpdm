@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+    width: 1300px;
+    margin:  auto;
+    background-color:rgba(255, 255, 255, 0.8);
+    background-attachment: fixed;
+    background-position: center;
+}    
+
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+
+.isotipo{
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.carrito{
+    float: right;
+    padding: 20px;
+}
+
+nav{
+    width: 1300px;
+   }
+
+nav ul{
+    width: 500px;
+    float: right;
+    padding-top: 1rem;
+}
+
+nav ul li {
+    width: 120px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+    text-align: center;
+    color: rgb(55, 55, 55) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color:orange;
+    font-weight: bold;
+}
+
+.banner{
+    padding-bottom: 50px;
+    }
+
+#galeria {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+    
+
+#galeria .productos{
+    padding: 20px;
+    }
+
+#galeria ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#galeria ul li a img{
+    padding-left: 50%;
+    display: inline-block;
+    }
+
+
+.imgnosotros{
+    padding-left: 50px;
+    display: inline-block;
+    padding-bottom: 25%;
+    }
+
+#nosotros{
+    width: 600px;
+    padding-left: 600px;
+    margin-top: -42%;
+    font-size: 18px;
+    color: black;
+}
+
+.nosotrosh2{
+    font-size: 24px;
+}
+
+.productosh3{
+    font-size: 24px;
+    padding-left: 100px;
+}
+
+#contacto{
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 0.6) 60%,
+      rgb(252, 176, 69) 100%
+    ), radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 28%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contacto p{
+    width: 600px;
+    color: white;
+    font-size: 22px;
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: lighter;
+    font-style: oblique;
+    }
+
+#contacto ul{
+    padding-top: 20px;
+    }
+    
+
+
+#contacto ul li {
+    display: inline-block;
+    }
+
+#contacto ul li a{
+    padding-left: 30px;
+    }
+
+.dondeestamos{
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.mapa{
+    padding-bottom: 40px;
+}
+
+.sectormapa{
+padding-left: 100px;
+padding-right: 200px;
+padding-bottom: 30px;
+}
+
+.sectormapa ul{
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sectormapa ul li{
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.sectormapa ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ub{ 
+    text-decoration:none ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #990000;}
+
+.dire{
+    color: #990000;
+}
+
+.tel{
+    text-decoration:none ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0061db;}
+
+.nro{
+    color: #0061db; 
+}
+
+.mail{
+    text-decoration:none ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #70298f;
+    
+}
+
+.correo{
+    color: #70298f;
+   }
+
+footer{
+    width: 1300px;
+    background-color: #211d1c;
+    color: white;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.on_{
+    float: left;
+    padding-left: 20px;
+    }
+
+p.copyright {
+    margin-top: 20px;
+}
